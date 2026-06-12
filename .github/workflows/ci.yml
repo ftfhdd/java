@@ -1,5 +1,8 @@
 name: Java CI with Maven
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true' # Temporarily forces Node 24 execution
+  
 on:
   push:
     branches: [ "main" ]
